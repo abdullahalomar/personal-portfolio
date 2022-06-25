@@ -10,9 +10,9 @@ const Contact = () => {
         emailjs.sendForm('service_4vw8p8u', 'template_i1whtgm', e.target,'-DOpS8toWPWZ0l9tn'
         ).then(res => {
           console.log(res);
-          if (res) {
-            toast('Message Send Successfully!!')
-          }
+        //   if (res) {
+        //     toast('Message Send Successfully!!')
+        //   }
         }).catch(err=> console.log(err));
     }
 
