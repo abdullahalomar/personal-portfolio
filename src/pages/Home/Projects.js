@@ -13,7 +13,7 @@ const Projects = () => {
 
     return (
         <div className='mt-10'>
-        <div className=' px-5'>
+        <div className='px-5'>
           <h2 className='text-3xl font-semibold text-secondary'>My Projects</h2>
             <div className='bg-secondary w-40 h-0.5' data-aos="fade-right" data-aos-duration="3000"></div>
             </div>
